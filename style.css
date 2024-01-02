@@ -9,7 +9,7 @@
   
 }
 body {
-  background: url(slash.gif);
+  background: url(bla.png);
 }
 
 section{
@@ -22,7 +22,7 @@ section{
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(antiqur.jpg)no-repeat;
+  background: url(san\ josee.jpg)no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -53,7 +53,7 @@ section{
 }
 
 .animated-text h3{
-  color:burlywood;
+  color:#000;
   font-size: 2em;
   font-weight: 700;
   line-height: 70px;
@@ -151,7 +151,7 @@ header .navigation a{
 }
 
 header .navigation a:hover{
-  color: pink;
+  color: palevioletred;
 }
 
 header.sticky .navigation a:hover{
@@ -172,7 +172,7 @@ body{
 
 .section-title{
   position: relative;
-  color: red;
+  color: white;
   font-size: 2.2em;
   font-weight: 800;
   margin-bottom: 60px;
@@ -245,117 +245,7 @@ body{
   font-size: 1em;
 }
 
-.skills{
-  background: #000016;
-}
 
-.skills .content{
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  color: lavender;
-  margin-top: 20px;
-}
-
-.skills .content .col-left{
-  position: relative;
-  width: 46%;
-}
-
-.skills .content .col-left .content-title{
-  margin-bottom: 20px;
-}
-
-.skills .content .col-right{
-  position: relative;
-  width: 46%;
-}
-
-.skills .content .col-right .bar{
-  margin-bottom: 15px;
-  padding: 10px;
-}
-
-.skills .content .col-right .bar .info{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 5px;
-}
-
-.skills .content .col-right .bar .info span{
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.skills .content .col-right .bar .line{
-  position: relative;
-  width: 100%;
-  height: 15px;
-  background: grey;
-  border-radius: 2px;
-}
-
-.skills .content .col-right .bar .line:before{
-  content: '';
-  position: absolute;
-  height: 100%;
-  top: 0;
-  left: 0;
-  border-radius: 2px;
-}
-
-.skills .content .col-right .bar .html:before{
-  width: 95%;
-  box-shadow: 0 0 30px lime;
-  background: greenyellow;
-  animation: light 1s linear infinite;
-}
-@keyframes light {
-  0%{
-    filter: hue-rotate(0deg);
-  }
-  100%{
-    filter: hue-rotate(360deg);
-  }
-}
-
-.skills .content .col-right .bar .css:before{
-  width: 89%;
-  box-shadow: 0 0 50px red;
-  background: limegreen;
-  animation: light 1s linear infinite;
-}
-
-.skills .content .col-right .bar .javascript:before{
-  width: 95%;
-  box-shadow: 0 0 50px lavender;
-  background: blue;
-  animation: light 1s linear infinite;
-}
-
-.skills .content .col-right .bar .jquery:before{
-  width: 87%;
-  box-shadow: 0 0 50px aqua;
-  background: gold;
-  animation: light 1s linear infinite;
-}
-
-.skills .content .col-right .bar .php:before{
-  width: 78%;
-  box-shadow: 0 0 50px crimson;
-  background: red;
-  animation: light 1s linear infinite;
-}
-
-.services .content{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: row;
-  margin-top: 20px;
-}
 
 .title p{
   font-size: 1em;
@@ -719,4 +609,16 @@ body{
 .paragraph-text {
   color: white;
   font-weight:bolder;
+}
+
+.about{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #fff;
+}
+.btn{
+  font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: palevioletred;
+
 }
